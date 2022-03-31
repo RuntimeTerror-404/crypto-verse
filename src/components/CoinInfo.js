@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { HistoricalChart } from "../config/api";
 import { Line } from "react-chartjs-2";
+import Chart from "chart.js/auto";
 import {
   CircularProgress,
   createTheme,
@@ -127,11 +128,3 @@ const CoinInfo = ({ coin }) => {
 };
 
 export default CoinInfo;
-
-// import React from "react";
-
-// const CoinInfo = () => {
-//   return <div>CoinInfo</div>;
-// };
-
-// export default CoinInfo;
